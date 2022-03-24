@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    transition: .8s ease-in-out;
+
+}
+
+h1, h2, h3, p, ul, li, span, a {
+    color: white;
+    font-family:'Raleway', sans-serif;
+}
+
+
+body {
+    background-color: #111111;
+}
+
+#menu {
+    display: flex;
+    gap: 30%;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabeçalho {
+    display: flex;
+    gap: 20%;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+
+#logo-politize {
+    width: 15%;
+    margin-left: 5%;
+
+}
+
+#titulo-bases-legais {
+    margin: 3%;
+    text-align: center;
+}
+
+#bases-legais {
+    width: 100vh;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#sessao-fluxogramas {
+    display: flex;
+    margin: 5
+    3%;
+    justify-content: center;
+}
+
+
+
+.fluxograma {
+    width: 20%;
+}
+
+.fluxograma:hover {
+    position: absolute;
+    width: 70vw;
+}
